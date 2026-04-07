@@ -1,17 +1,26 @@
 .friendMessage {
-
+    margin-bottom: 47px;
 }
 
 .friendImageAndText {
-
+    display: flex;
+    gap: 12px;
+    padding-bottom: 5px;
 }
 
 .friendImageAndText img {
-
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .friendText {
-
+    position: relative;
+    padding: 8px 13px;
+    background-color: #F5F7FB;
+    color: #000000;
+    border-radius: 7px 7px 7px 0;
 }
 
 .friendText:after {
@@ -19,13 +28,15 @@
 }
 
 .friendName {
-
+    font-size: 18px;
+    margin-bottom: 3px;
 }
 
 .friendMessageText {
-
+    font-weight: 400;
 }
 
 .friendTime {
-
+    font-size: 10px;
+    margin-left: 10px;
 }
