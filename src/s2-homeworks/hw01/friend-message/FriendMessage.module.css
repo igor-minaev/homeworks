@@ -18,13 +18,20 @@
 .friendText {
     position: relative;
     padding: 8px 13px;
-    background-color: #F5F7FB;
+    background-color:  #f2f3fa;
     color: #000000;
     border-radius: 7px 7px 7px 0;
 }
 
 .friendText:after {
-
+    position: absolute;
+    content: '';
+    left: -12px;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    background: #f2f3fa;
+    clip-path: polygon(100% 100%, 0% 100%, 100% 0%);
 }
 
 .friendName {
