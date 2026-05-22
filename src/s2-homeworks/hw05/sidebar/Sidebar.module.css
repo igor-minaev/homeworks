@@ -12,7 +12,7 @@
     height: 100%;
     background-color: #fff;
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
-    transition: left 0.3s ease-in-out;
+    transition: left 0.5s ease-in-out;
     padding: 16px 24px 0 0;
     z-index: 1000;
 }
